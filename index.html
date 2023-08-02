@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rock-Paper-Scissors</title>
+
+        <meta name="description" content="RockPaperScissors" />
+        <meta name="keywords" content="Rock-Paper-Scissors" />
+        <meta name="author" content="kikva" />
+
+        <meta property="og:title" content="Rock-Paper-Scissors" />
+        <meta
+            property="og:image"
+            content="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png"
+        />
+        <meta property="og:type" content="section" />
+        <meta property="og:description" content="Rock-Paper-Scissors Game" />
+
+        <link
+            rel="icon"
+            href="https://pxt.azureedge.net/blob/68f66c3ddc3acfc4c53157abf92eace202d46db2/static/courses/csintro/conditionals/rock-paper-scissors-items.png"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <div class="container wrapper">
+            <h1>Rock Paper Scissors Game</h1>
+            <h2 id="gameInfo">Game</h2>
+            <h3>
+                Score : <span id="playerScore">0</span> -
+                <span id="npcScore">0</span>
+            </h3>
+            <div class="img-wrapper">
+                <img src="imgs/rock.png" alt="Rock" id="rock" />
+                <img src="imgs/paper.png" alt="Paper" id="paper" />
+                <img
+                    src="imgs/scissors.png"
+                    alt="Scissors"
+                    class="scissors"
+                    id="scissors"
+                />
+            </div>
+            <p id="info"></p>
+        </div>
+    </body>
+</html>
